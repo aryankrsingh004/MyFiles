@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.css-header {
+    background-color: rgba(41, 112, 226, 0.992);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.css-black-line {
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    padding: 7px;
+}
+
+.css-empty {
+    height: 35px;
+    background-color: white;
+    border:1px solid grey ;
+}
+
+.css-time-left {
+
+    display: flex;
+    justify-content: right;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    font-weight:  bold;
+    font-size: 15px;
+    
+}
+.css-01{
+    width: 80%;
+}
+.css-info {
+    display: flex;
+    flex-grow: 1;
+    background-color: #f5f5f5;
+}
+.css-container {
+    display: flex;
+    flex-grow: 1;
+
+}
+.css-stud-img {
+    border: 1px solid grey;
+    padding: 5px 5px;
+    width: 90px;
+}
+
+.css-02 {
+    display: flex;
+    justify-content: flex-end;
+    height: 35px;
+    background-color: rgba(41, 112, 226, 0.992);
+    border: 1px solid grey;
+    color: white;
+    align-items: center;
+    padding-top: 7px;
+}
+.css-dropdown-menu {
+    padding: 10px;
+
+}
+select{
+    padding: 4px 7px;
+    text-align: start;
+    font-size: small;
+    border-radius: 3px;
+}
+.css-questions-height {
+    height: 300px;
+    overflow-y: scroll;
+}
+.css-questions-style {
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+.css-line {
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+.css-line02{
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+.row{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+table{
+    margin-top: 20px;
+}
+tr{
+    display: flex;
+}
+td{
+    padding: 20px;
+}
+button{
+    padding: 5px 12px;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+
+}
+.css-buttons01{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.css-button-savenext{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.css-button-savemark{
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.css-button-mark{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.css-backnextsubmit{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.css-buttons02{
+    background-color: #f5f5f5;
+}
+.yaar{
+    border: 1px solid grey;
+    background-color: white;
+}
+.css-button-clear{
+    background-color: white;
+    border: 1px solid grey;
+}
+.table-responsive{
+    border: 3px dotted black;
+}
+.full-width1{
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+    background: url(Logo1.png);
+    background-size: 50px 50px;
+}
+.full-width2{
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+    background: url(Logo2.png);
+    background-size: 50px 50px;
+    color: white;
+}
+.full-width3{
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+    background: url(Logo3.png);
+    background-size: 50px 50px;
+    color: white;
+}
+.full-width4{
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
+    background: url(Logo4.png);
+    background-size: 50px 50px;
+    color: white;
+}
+.full-width5{
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;   
+    background: url(Logo5.png);
+    background-size: 50px 50px;
+    color: white;
+}
+.css-footer{
+    height: 40px;
+    background-color: blue;
+}
+.css-1section{
+    width: 85%;
+}
+.hi{
+    font-size: small;
+}
+.css-quest-pallet{
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    overflow-y: scroll;
+
+}
+
+
+li{
+    min-width: 30px;
+    font-size: small;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background: url(Logo1.png);
+    list-style: none;
+}
+.css-quest-icons{
+    display: flex;
+    flex-wrap: wrap;
+}
